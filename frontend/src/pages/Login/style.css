@@ -21,7 +21,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(235, 242, 255);
+  background-color: rgb(33, 30, 50);
   flex-direction: column;
 }
 
@@ -57,7 +57,7 @@ body {
   justify-content: flex-end;
   margin-right: 5px;
   margin-top: 5px;
-  color: #285ec9;
+  color: #8C50FF;
 }
 .link-recovery {
   text-decoration-color: rgb(52, 137, 255);
@@ -140,7 +140,7 @@ body {
   border-radius: 30px;
 }
 .link-enter:hover {
-  background-color: #285ec9;
+  background-color: #8C50FF;
   text-decoration: none;
 }
 .link-enter > span {
