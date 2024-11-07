@@ -140,10 +140,10 @@ const Login = () => {
               tabIndex={0}
               role={"button"}
               aria-disabled={"false"}
-              to="/signup"
+              to="/"
               style={{ textDecoration: "none" }}
             >
-              <span className={"label-text"}>Criar conta</span>
+              <span className={"label-text"}>Bem-vindo!</span>
             </Link>
             <a
               className={"link-enter"}
@@ -153,7 +153,7 @@ const Login = () => {
               to="/login"
               style={{ textDecoration: "none" }}
             >
-              <span>Entrar</span>
+              <span>Use suas credenciais</span>
             </a>
           </div>
           <form className={classes.form} noValidate onSubmit={handlSubmit}>
