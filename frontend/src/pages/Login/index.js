@@ -114,7 +114,7 @@ const Login = () => {
           <p>
             Copyright ©{" "}
             <a href={"#"} target={"_blank"}>
-              Equipechat{""}
+              Neural Broker{""}
             </a>{" "}
             2024{" "}
           </p>
@@ -153,7 +153,7 @@ const Login = () => {
               to="/login"
               style={{ textDecoration: "none" }}
             >
-              <span>Use suas credenciais</span>
+              <span>Entrar</span>
             </a>
           </div>
           <form className={classes.form} noValidate onSubmit={handlSubmit}>
